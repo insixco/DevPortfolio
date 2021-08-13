@@ -83,8 +83,8 @@ nav a {
 .intro-blurb {
     display: flex;
     justify-content: center;
-    font-weight: bold;
-    font-size: 20px;
+    /* font-weight: bold;
+    font-size: 20px; */
     padding-top: 10px;
 }
 
@@ -92,8 +92,13 @@ nav a {
     text-decoration: lightslategray;
     text-decoration-style: none;
     font-weight: bold;
-    color: lightseagreen;
+    color: rgb(11, 153, 146);
 }
+
+.intro a:hover {
+    color: rgb(0, 95, 90);
+}
+
 
 .intro {
     display: flex;
@@ -107,10 +112,30 @@ nav a {
     width: 55%;
 }
 
+.intro p {
+    text-justify: distribute;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
 /* About seciton styling */
+
+.about div {
+    width: 55%;
+}
+
 .about h2 {
     font-size: 44px;
     text-align: center;
+}
+
+.about p {
+    text-justify: distribute;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+
 }
 
 /* Contact seciton styling */
@@ -127,7 +152,11 @@ nav a {
     text-decoration: lightslategray;
     text-decoration-style: none;
     font-weight: bold;
-    color: lightseagreen;
+    color: rgb(11, 153, 146);
+}
+
+.contact a:hover {
+    color: rgb(0, 95, 90);
 }
 
 footer {
