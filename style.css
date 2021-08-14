@@ -36,6 +36,11 @@ nav a {
     
 }
 
+nav a:hover {
+    color: rgb(0, 216, 205);  
+    font-weight: bolder;
+}
+
 .logo {
 
     font-size: 32px;
