@@ -1,8 +1,11 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
+    background-image: url('https://www.tilingtextures.com/wp-content/uploads/2019/05/0090b-512x512.jpg');
+    background-color: rgba(255,255,255,0.4);
+    background-blend-mode: lighten;
     background-repeat: repeat;
-    
+    font-size: 18px;
 }
 
 /* navigation styling */
@@ -13,7 +16,7 @@ nav {
     position: absolute;
     top: 0;
     left:0;
-    color: whitesmoke;
+   
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
     display: flex;
@@ -81,6 +84,12 @@ nav a:hover {
     padding-top: 100px;
 }
 
+p {
+    word-break: break-all;
+    white-space: normal;
+    hyphens: auto;
+}
+
 .base-content-styles div {
     width: 55%;
 }
@@ -89,8 +98,6 @@ nav a:hover {
 .intro-blurb {
     display: flex;
     justify-content: center;
-    /* font-weight: bold;
-    font-size: 20px; */
     padding-top: 10px;
 }
 
@@ -98,31 +105,30 @@ nav a:hover {
     text-decoration: lightslategray;
     text-decoration-style: none;
     font-weight: bold;
-    color: rgb(10, 41, 82);
+    color: #003049;
 }
 
 .intro a:hover {
-    color: rgb(0, 216, 205); 
+    color: #d62828; 
 }
 
-
-.intro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-    width: 100%;
-}
 
 .intro div {
-    width: 55%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: left;
 }
 
 .intro p {
-    text-justify: distribute;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
+    width: 55%;
+    /* word-wrap: break-word;
+    overflow-wrap: break-word; */
     hyphens: auto;
+    word-break: break-all;
+    white-space: normal;
 }
 
 /* About seciton styling */
@@ -159,11 +165,11 @@ nav a:hover {
     text-decoration: lightslategray;
     text-decoration-style: none;
     font-weight: bold;
-    color: rgb(10, 41, 82);
+    color: #003049;
 }
 
 .contact a:hover {
-    color: rgb(0, 216, 205); 
+    color: #d62828; 
 }
 
 footer {
